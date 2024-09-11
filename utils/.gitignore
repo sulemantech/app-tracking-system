@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Linux specific
+*~
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python eggs
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Ignore data files (raw resume PDFs, job descriptions, etc.)
+data/resumes/
+data/job_descriptions/
+
+# Ignore machine learning models and embeddings
+models/
+*.pkl
+*.h5
+*.pt
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.csv
+*.tsv
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore test coverage files
+.coverage
+*.cover
+htmlcov/
+
+# Ignore dependency directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE-specific folders (e.g., JetBrains, Eclipse)
+.idea/
+.project
+.classpath
+
+# Ignore files for linting, testing, and formatting
+.pytest_cache/
+.mypy_cache/
+.coverage
+Pipfile.lock
